@@ -1,0 +1,49 @@
+body{font-family: 'Roboto', sans-serif;}
+.label{margin-right:10px;}
+.navbar-brand{font-size:33px;padding:10px 15px;color:#333 !important;}
+.navbar-brand:hover{color:#4078c0 !important;}
+.form-group, .form-control{width:500px !important;}
+.form-control{height:30px !important;}
+.navbar-form{margin-top:11px;margin-left:-15px;}
+.container{padding-right:150px;padding-left:150px;}
+.thumbnail{border-radius:10px;padding:0;border:none;}
+.full-name{font-size:25px;line-height:30px;font-weight:500;word-wrap:break-word;color:#333;}
+.nickname{font-size:20px;line-height:24px;font-weight:300;word-wrap:break-word;color:#666;margin-top:-10px;}
+.bio{font-size:14px;font-weight:300;word-wrap:break-word;color:#767676;padding-bottom:20px;border-bottom:1px solid #eee;margin-bottom:10px;}
+.list-group{padding-bottom:20px;border-bottom:1px solid #eee;}
+.list-group-item{border:none;padding:5px 0px;word-wrap:break-word;font-size:14px;color:#333;font-weight:400;}
+.contacts i{width:20px;text-align:center;color:#999;}
+.stats li{display:inline-block;width:33%;text-align:center;}
+.stats i{color:#337ab7;}
+.stats li strong, .stats li span{width:100%;float:left;}
+.stats li strong{font-size:28px;font-weight:600;color:#337ab7;}
+.stats li span{font-size:11px;font-weight:400;color:#767676;}
+.profile_infos{padding:0px 10px;}
+.nav-tabs li a{color:#777;font-weight:300;}
+.active a{color:black !important;}
+.nav-tabs li > a:hover{border-color:transparent;background-color:transparent;color:#777;}
+.panel{margin-top:25px;}
+.panel-title{font-size:14px;}
+.repos{padding-bottom:0px}
+.repos:last-child{margin-bottom:0px;border-bottom:none;}
+.repos #repo-name{color:#4078c0;font-size:15px;}
+.repos i{width:25px;text-align:left;}
+.repos p{margin-left:25px;font-size:12px;color:#858585;line-height:21px;max-width:90%;word-wrap: break-word;}
+.repos a:hover{text-decoration:none !important;}
+.repos a:focus{text-decoration:none !important;}
+.repos a:hover #repo-name{text-decoration:underline !important;}
+.list-left{width:80%;}
+.list-left i{color:#6A6A6A;}
+.list-right{color:#888;}
+.list-right a{color:#888;}
+.list-right a:hover{color:#4078c0;}
+.list-right{width:25%;float:right;font-size:13px !important;}
+.list-right i{width:auto;}
+.list-right .forks, .list-right .starred{margin-left:10px;}
+.list-right span{font-size:13px;font-weight:500;}
+.list-right .forks:hover, .list-right .starred:hover{color:#4078c0 !important;}
+
+::-webkit-input-placeholder {color: #CDCDCD !important; }
+::-moz-placeholder {color: #CDCDCD !important; }
+:-ms-input-placeholder {color: #CDCDCD !important; }
+:-moz-placeholder {color: #CDCDCD !important; }
