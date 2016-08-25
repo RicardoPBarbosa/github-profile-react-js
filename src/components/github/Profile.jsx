@@ -5,6 +5,7 @@ var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July'
 
 class Profile extends React.Component{
 	convertDate(date){
+		if(!date){return 0}
 		var parts         = date.split("T");
 		parts             = parts[0].split("-");
 		var convertedDate = new Date(parts[0], parts[1] - 1, parts[2]);
@@ -30,7 +31,7 @@ class Profile extends React.Component{
 							<ul className="list-group contacts">
 								<li className="list-group-item"><i className="fa fa-map-marker" aria-hidden="true"></i> {this.props.userData.location}</li>
 								<li className="list-group-item"><i className="fa fa-envelope" aria-hidden="true"></i> <a href={"mailto:" + this.props.userData.email}>{this.props.userData.email}</a></li>
-								<li className="list-group-item"><i className="fa fa-clock-o" aria-hidden="true"></i> Joined on {this.convertDate("2016-07-01T13:13:18Z")}</li>
+								<li className="list-group-item"><i className="fa fa-clock-o" aria-hidden="true"></i> Joined on {this.convertDate(this.props.userData.created_at)}</li>
 							</ul>
 							<ul className="list-group stats">
 								<a target="_blank" href={this.props.userData.html_url + "/followers"}><li className="list-group-item"><strong>{this.props.userData.followers}</strong><span>Followers</span></li></a>
