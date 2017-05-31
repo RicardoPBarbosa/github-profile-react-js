@@ -1,6 +1,6 @@
 # GitHub Profile Viewer
 
-####GitHub profile page with ReactJS & GitHub API
+GitHub profile page with ReactJS & GitHub API
 
 *Learning better coding pratices with ReactJS + ES6 + API calls*
 
